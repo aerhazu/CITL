@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "citl",
+  "version": "1.0-mc1.21.1",
+  "name": "CITL",
+  "description": "A mod that provides an in-game menu for browsing installed OptiFine/CIT Resewn CIT packs.",
+  "authors": [
+    "Aerhazu (Lavandula Collective)"
+  ],
+  "contact": {
+    "homepage": "https://lavandula-collective.gitbook.io/site",
+    "issues": "https://github.com/Lavandula-Collective/CITL/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/citl/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "aerhazu.client.cit.ledger.CITLedgerClient"
+    ],
+    "modmenu": [
+      "aerhazu.client.cit.config.CITLedgerIntegrationAPI"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": true,
+      "links": {
+        "modrinth": "https://modrinth.com/mod/citl",
+        "modmenu.wiki": "https://lavandula-collective.gitbook.io/site/citl",
+        "modmenu.discord": "https://discord.gg/DXFpzAn2fh",
+        "modmenu.kofi": "https://ko-fi.com/aerhazuwu"
+      }
+    }
+  },
+  "mixins": [
+    "citl.mixins.json",
+    {
+      "config": "citl.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21 <=1.21.1"
+  }
+}
