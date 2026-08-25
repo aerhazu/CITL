@@ -7,9 +7,8 @@ Made for builders, creators, and anyone tired of the anvil clanking.
 
 </div>
 
-
 <p align="center">
-<img src="https://github.com/aerhazu/CITL/blob/master/src/main/resources/assets/citl/icon.png width="200">
+<img src="https://github.com/aerhazu/CITL/blob/master/src/main/resources/assets/citl/icon.png" width="200">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Minecraft-1.20.1-green"> 
