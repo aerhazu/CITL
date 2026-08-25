@@ -2,8 +2,8 @@
 
 # CITL (CIT Ledger)
 
-**A smart mod that makes renaming CIT items quick and easy with one command.**  
-Made for builders, creators, and anyone tired of the anvil clanking.
+A mod that provides an in-game menu for browsing installed **OptiFine/CIT Resewn** CIT packs. This doesn't work on modern vanilla CITs!
+**Just press** `G`.
 
 </div>
 
@@ -22,9 +22,7 @@ Made for builders, creators, and anyone tired of the anvil clanking.
 
 ---
 
-A mod that provides an in-game menu for browsing installed OptiFine/CIT Resewn CIT packs.
-**Just press** `G`.
-
+![CITL Screen featuring Ghoulcraft CITs](https://cdn.modrinth.com/data/cached_images/1a7a0bf991055880e60ab2cb269f3e9eb19f3a2f.png)
 
 ## 👉 Features
 
@@ -34,7 +32,6 @@ A mod that provides an in-game menu for browsing installed OptiFine/CIT Resewn C
 * **Direct Actions:** Context menu support to copy display strings or execute `/give` commands.
 * **Diagnostics:** Filter invalid `.properties` definitions and naming collisions across packs.
 * **Configurable:** Persistent search queries, audio feedback toggles, and animation controls via ModMenu.
-* **Client-Side:** Operates entirely client-side on singleplayer and multiplayer environments.
 
 
 ## 🚀 Quick Reference
@@ -57,9 +54,12 @@ A mod that provides an in-game menu for browsing installed OptiFine/CIT Resewn C
 * **Audio Feedback:** Independent toggles for give, copy, clear, and error sound effects.
 * **Diagnostics:** Visibility toggles for broken definitions and conflicting item names.
 
+## ✨ See Also...
+[CITX (CIT Extension)](https://modrinth.com/mod/citx) - A mod that allows easy renaming of CIT items with a custom command.
+
 
 ## ⚖️ License & Support
 
 Issues and feature requests can be submitted via the [GitHub Issue Tracker](https://github.com/Lavandula-Collective/CITL/issues).  
-Feel free to include into your modpacks with credits.
+Feel free to include into your modpacks with credits.  
 Distributed under the **Apache-2.0 License**.
